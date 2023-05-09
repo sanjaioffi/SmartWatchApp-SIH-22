@@ -119,7 +119,7 @@ class _ListenNotificationsState extends State<ListenNotifications> {
                           )
                         : const SizedBox.shrink(),
                     leading: Image.memory(
-                      events[index].notificationIcon!,
+                      events[index].appIcon!,
                       width: 35.0,
                       height: 35.0,
                     ),
@@ -138,7 +138,7 @@ class _ListenNotificationsState extends State<ListenNotifications> {
                                 style: TextStyle(color: Colors.purple),
                               )
                             : const SizedBox.shrink(),
-                        events[index].hasExtrasPicture!
+                        events[index].haveExtraPicture!
                             ? Image.memory(
                                 events[index].extrasPicture!,
                               )

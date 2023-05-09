@@ -1,3 +1,4 @@
+
 name: smartwatch_application_sih
 description: A new Flutter project.
 
@@ -34,7 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  notification_listener_service:
+  
   shared_preferences: ^2.0.13
   percent_indicator: ^4.2.2
   flutter_blue: ^0.8.0
@@ -68,10 +69,11 @@ dependencies:
   weather: ^2.0.1
   fluttertoast: ^8.0.9
   oscilloscope: ^0.2.0+1
-  flutter_pdfview: ^1.2.1
+  # flutter_pdfview: ^1.2.1
   url_launcher: ^6.1.5
   marquee: ^2.2.3
   loading_animation_widget: ^1.2.0+2
+  notification_listener_service: ^0.3.2
   
   # permission_handler: ^10.0.0
   
